@@ -1,3 +1,5 @@
+#tpemacs
+
 Simple Taskpaper major mode for emacs.
 
 Put taskpaper.el file somewhere (for instance in ~/emacs.d/taskpaper.el)
@@ -11,7 +13,5 @@ for files with .taskpaper extension
 
    Keyboard shortcuts:
    
-   S-return     Focus project under cursor
-   S-backspace  Back to all projects
-   C-c l        Chose project from list
    C-c d        Toggle done state
+   C-c r	Reset all tasks (clear all "@done" tags)
